@@ -6,9 +6,9 @@ Write a function that returns the winner of a game of tic-tac-toe. The input wil
 
 Input:
 [
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;['X', 'O', undefined],
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;['O', 'X', undefined],
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;['O', undefined, 'X'],
+  ['X', 'O', undefined],
+  ['O', 'X', undefined],
+  ['O', undefined, 'X'],
 ]
 
 Output:
@@ -25,14 +25,14 @@ Output:
 #### Pseudocode the process that makes the most *sense* in your head
 
 for each row
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if every cell in row has same value, return it
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else continue
+  if every cell in row has same value, return it
+  else continue
 for each column
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if every cell in column has same value, return it
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else continue 
+  if every cell in column has same value, return it
+  else continue 
 for each diagonal
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if every cell in diagonal has same value, return it
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else continue
+  if every cell in diagonal has same value, return it
+  else continue
 
 #### Take a step back, refactor pseudocode to abstract repeated work
 
