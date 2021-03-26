@@ -5,14 +5,15 @@ Write a function that returns the winner of a game of tic-tac-toe. The input wil
 #### Sample input/output:
 
 Input:
+```
 [
   ['X', 'O', undefined],
   ['O', 'X', undefined],
   ['O', undefined, 'X'],
 ]
-
+```
 Output:
-'X'
+`'X'`
 
 ## Suggested steps
 
@@ -24,6 +25,7 @@ Output:
 
 #### Pseudocode the process that makes the most *sense* in your head
 
+``` 
 for each row
   if every cell in row has same value, return it
   else continue
@@ -32,7 +34,8 @@ for each column
   else continue 
 for each diagonal
   if every cell in diagonal has same value, return it
-  else continue
+  else continue 
+```
 
 #### Take a step back, refactor pseudocode to abstract repeated work
 
