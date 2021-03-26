@@ -17,6 +17,11 @@ Output:
 
 ## Suggested steps
 
+These steps aim to help you:
+- Communicate clearly
+- Stay cool, calm, and confident
+- Write code that is clear, scalable, and easily-debuggable
+
 #### State win conditions
 
 1. All values in a row are the same, and not undefined
